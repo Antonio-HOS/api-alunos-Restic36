@@ -8,7 +8,6 @@ Api feita para gerenciar um array do objeto aluno.
 - [Instalação](#instalação)
 - [Execução](#execução)
 - [Tecnologias utilizadas](#tecnologias-utilizadas)
-- [Contribuição](#contribuição)
 
 
 ## Pré-requisitos
