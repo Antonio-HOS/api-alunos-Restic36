@@ -28,10 +28,18 @@ function update(id, { nome, email, nome_curso }) {
   return alunos[index];
 }
 
+function remove(id) {
+  const index = alunos.findIndex((aluno) => aluno.id === id);
+  if (index === -1) {
+    return false;
+  }
 
+  alunos.splice(index, 1);
+  return true;
+}
 
 module.exports = {
   create,
   update,
- 
+  remove,
 };
