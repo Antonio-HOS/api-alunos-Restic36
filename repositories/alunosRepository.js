@@ -38,8 +38,13 @@ function remove(id) {
   return true;
 }
 
+function findAll() {
+  return alunos;
+}
+
 module.exports = {
   create,
   update,
   remove,
+  findAll,
 };
