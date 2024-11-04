@@ -8,7 +8,7 @@ Api feita para gerenciar um array do objeto aluno.
 - [Instalação](#instalação)
 - [Execução](#execução)
 - [Tecnologias utilizadas](#tecnologias-utilizadas)
-
+- [Documentação](#Documentação)
 
 ## Pré-requisitos
 
@@ -47,6 +47,9 @@ npm start
 
 O servidor será executado em `http://localhost:3000` por padrão.
 
+
+## Documentação
+A ducumentação está na rota `/api-docs`, exemplo `http://localhost:3000/api-docs`.
 
 ## Tecnologias utilizadas
 
