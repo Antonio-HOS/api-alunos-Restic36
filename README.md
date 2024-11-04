@@ -49,7 +49,7 @@ O servidor será executado em `http://localhost:3000` por padrão.
 
 
 ## Documentação
-A ducumentação estã na rota `/api-docs`.
+A ducumentação está na rota `/api-docs`, exemplo `http://localhost:3000/api-docs`.
 
 ## Tecnologias utilizadas
 
