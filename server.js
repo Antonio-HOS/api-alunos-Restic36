@@ -98,7 +98,7 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
  */
 app.post("/alunos", (req, res) => {
   const { nome, email, nome_curso } = req.body;
-  const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+  const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/; //Validação de e-mail
 
   if (!emailRegex.test(email)) {
     return res.status(400).json({ error: "E-mail inválido" });
